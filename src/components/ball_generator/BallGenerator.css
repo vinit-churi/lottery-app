@@ -1,0 +1,22 @@
+.ballgenerator{
+    display: flex;
+    justify-content: center;
+}
+.ball{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: aqua;
+    color: rgb(31, 126, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    border-color: rgb(31, 126, 126);
+    border: solid 2px;
+}
+
+.ball + .ball {
+    margin-left: 1rem;
+}
